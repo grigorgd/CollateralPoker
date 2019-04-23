@@ -1,0 +1,87 @@
+
+#mainAnchor{
+    -fx-background-image:url('/resources/image/background.png');
+}
+
+#mainJoin{
+    -fx-background-image:url('/resources/image/backgroundj.png');
+}
+
+#mainCreate{
+    -fx-background-image:url('/resources/image/backgroundc.png');
+}
+
+.label{
+    -fx-text-fill: white;
+}
+
+.button{
+    -fx-text-fill: white;
+    -fx-background-color: #150A46;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7), 2,0,0,2);
+}
+
+.button:hover{
+    -fx-background-color: #1D1478;
+}
+
+.actionButton{
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(#8B1222 0.0%, #66122A 50.0%, #661240 100.0%);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7), 2,0,0,2);
+}
+
+.actionButton:hover{
+    -fx-background-color: #8C0021;
+}
+
+#mainBox{
+    -fx-background-color: #28238C;
+}
+
+/* LIST */
+.list-cell:filled:selected:focused, .list-cell:filled:selected{
+    -fx-background-color: linear-gradient(#328BDB 0.0%, #207BCF 25.0%, #1973C9 75.0%, #0A65BF 100.0%);
+    -fx-text-fill: white;
+}
+
+.list-cell{
+    -fx-font-size:12;
+    -fx-font-family:'Consolas';
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #0093ff;
+    -fx-text-fill: white;
+}
+
+/* MENU */
+.menu-bar {
+    -fx-background-color: #150A46;
+}
+
+.menu-bar .container .menu-button:hover {
+    -fx-background-color: #1D1478;
+}
+
+.menu-bar .label {
+    -fx-text-fill: white;
+    -fx-font-family: 'Consolas';
+}
+
+.menu-item .label {
+    -fx-text-fill: white;
+    -fx-font-family: 'Consolas';
+}
+
+.menu-item:focused {
+     -fx-background-color: #1D1478;
+}
+
+.context-menu {
+    -fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+    -fx-background-color: #150A46;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0 6 6 6, 0 5 5 5, 0 4 4 4;
+    -fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em;
+}

@@ -1,0 +1,30 @@
+.button{
+    -fx-font-family: 'Consolas';
+    -fx-text-fill: white;
+    -fx-background-color: #150A46;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7), 2,0,0,2);
+    -fx-pref-width: 80px
+}
+
+.button:hover{
+    -fx-background-color: #1D1478;
+}
+
+.label {
+    -fx-font-family: Consolas;
+    -fx-text-fill: white;
+}
+
+.blue-style{
+    -fx-background-color: #28238C;
+}
+
+.text-area{
+    -fx-font-size:12;
+    -fx-font-family: 'Consolas';
+}
+
+.list-cell{
+    -fx-font-size:12;
+    -fx-font-family:'Consolas';
+}

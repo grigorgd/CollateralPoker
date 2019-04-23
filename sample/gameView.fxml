@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainAnchor" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GameViewController">
+
+    <stylesheets><URL value="@styles/styles.css" /></stylesheets>
+
+   <children>
+      <Label fx:id="infoConnectionLabel" alignment="CENTER" layoutX="10.0" layoutY="580.0" prefHeight="20.0" prefWidth="260.0">
+         <font>
+            <Font name="Consolas" size="10.0" />
+         </font>
+      </Label>
+      <Label fx:id="infoServerLabel" alignment="CENTER" layoutX="280.0" layoutY="580.0" prefHeight="20.0" prefWidth="260.0">
+         <font>
+            <Font name="Consolas" size="10.0" />
+         </font>
+      </Label>
+      <MenuBar prefHeight="25.0" prefWidth="800.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Game">
+            <items>
+              <MenuItem fx:id="createMenuItem" mnemonicParsing="false" text="Create" />
+                  <MenuItem fx:id="joinMenuItem" mnemonicParsing="false" text="Join" />
+                  <MenuItem fx:id="closeClientMenuItem" mnemonicParsing="false" text="Close Client" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="infoMenuItem" mnemonicParsing="false" text="Info" />
+                  <MenuItem fx:id="exitMenuItem" mnemonicParsing="false" text="Exit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Options">
+            <items>
+                  <CheckMenuItem fx:id="deckMenuItem" mnemonicParsing="false" text="Four colour deck" />
+                  <CheckMenuItem fx:id="soundMenuItem" mnemonicParsing="false" text="Sound" />
+                  <MenuItem fx:id="backMenuItem" mnemonicParsing="false" text="Next back" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+                  <MenuItem fx:id="rulesMenuItem" mnemonicParsing="false" text="Rules" />
+                  <MenuItem fx:id="probabilityMenuItem" mnemonicParsing="false" text="Probability" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <ListView fx:id="handsList" disable="true" layoutX="590.0" layoutY="30.0" prefHeight="475.0" prefWidth="205.0" />
+      <Button fx:id="raiseButton" disable="true" layoutX="695.0" layoutY="510.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="100.0" styleClass="actionButton" text="RAISE">
+         <font>
+            <Font name="Consolas" size="24.0" />
+         </font></Button>
+      <Button fx:id="callButton" disable="true" layoutX="590.0" layoutY="510.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="100.0" styleClass="actionButton" text="CALL">
+         <font>
+            <Font name="Consolas" size="24.0" />
+         </font></Button>
+      <Label fx:id="betLabel" alignment="CENTER" layoutX="60.0" layoutY="280.0" prefHeight="40.0" prefWidth="440.0">
+         <font>
+            <Font name="Consolas Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="playButton" alignment="CENTER" layoutX="170.0" layoutY="270.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="200.0" text="READY" visible="false">
+         <font>
+            <Font name="Consolas" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

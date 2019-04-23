@@ -1,0 +1,60 @@
+<h2>Poboczny Poker</h2>
+
+<h3>Użytkowanie</h3>
+
+<p style="line-height:150%;">Rozpoczęcie gry odbywa się poprzez stworzenie serwera Game->Create 
+i dołączenie do gry Game->Join lub poprzez dołączenie do gry stworzonej przez innego użytkownika 
+Game->Join i podanie imienia, numeru portu i adresu ip maszyny, na której uruchomiono serwer. 
+Po dołączeniu zostaną włączone miejsca dla graczy. Jeśli miejsce jest zajęte, zostaje oznaczone 
+nazwą użytkownika, a przycisk zajęcia miejsca zostaje wyłączony dla reszty graczy. Wraz z zajęciem 
+miejsca pojawia się przycisk Play, którym gracz wyraża gotowość do gry i po jego naciśnięciu nazwa 
+użytkonika zmienia kolor z białego na zielony. Aby gra wystartowała wszyscy użytkownicy, którzy 
+zajęli miejsca muszą wcisnąć przycisk Play i co najmniej dwa miejsca muszą być zajęte. Jeśli, 
+któryś z graczy upuści miejsce przed startem gry, reszta użytkoników która już potwierdziła 
+gotowość musi ponownie aktywować przicisk Play.</p>
+
+<p style="line-height:150%;">Po każdej rundzie graczą wyświetla się okno informujące o wyniku rundy. Kolejna runda rozpoczyna się 
+gdy wszyscy gracze potwierdzą rezultat rundy zamykając podsumowanie. Po ostatniej rundzie wszystkie 
+miejsca są ponownie dostępne dla graczy.</p>
+
+<ul style="list-style-type:square; line-height:150%;">
+<li>Game->Create - tworzy server na adresie ip tego urządzenia</li>
+<li>Game->Join - dołącza do gry nowego gracza</li>
+<li>Game->Close client - zamyka polączenie klienta z serwerem</li>
+<li>Game->Info - otwiera okno wiadomości na temat użytkowników i gry</li>
+<li>Game->Exit - zamyka program<li>
+<li>Options->Four color deck - karty będą wyświetlane w czterech kolorach</li>
+<li>Options->Sound - włącza dżwięk</l>
+<li>Options->Next back - przełącza wzór rewersu kart</li>
+<li>Help->Rules - wyświetla okno zasad gry</li>
+</ul>
+
+<h3>Zasady</h3>
+
+<p style="line-height:150%;">Poboczny poker to gra dla od 2 do 4 graczy. Talia używana do gry składa się z 24 kart ('9' do 
+'As' dla każdego z kolorów). W grze wykorzystywane są pokerowe układy kart. Są to kolejno pod 
+względem siły:</p>
+
+<ul style="list-style-type:square; line-height:150%;">
+<li>wysoka karta</li>
+<li>para</li>
+<li>dwie pary</li>
+<li>trójka</li>
+<li>strit</li>
+<li>kolor</li>
+<li>full</li>
+<li>kareta</li>
+<li>poker</li>
+</ul>
+<p style="line-height:150%;">Gra polega na podbijaniu układów pokerowych i sprawdzaniu ich przez graczy. Celem gracza 
+jest zmuszenie przeciwników do dobierania kart. Gracz rozpoczynający jest wybierany losowo. 
+Każdy z graczy otrzymuje po jednej karcie. Gracz rozpoczynający rundę musi podbić ponieważ 
+nie ma żadnego zadeklarowanego układu. Następny w kolejności gracz może sprawdzić podbicie 
+lub zadeklarować wyższy układ. Kolejność graczy jest zgodna z ruchem wskazówek zegara zajętych 
+siedzeń. Runda trwa dopóki, któryś z graczy nie sprawdzi podbicia.</p>
+
+<p style="line-height:150%;">Jeśli gracz sprawdzi, karty wszystkich graczy są odkrywane i sprawdzany jest zadeklarowany 
+układ. Jeśli sprawdzany układ jest możliwy do ułożenia z kart wszystkich graczy to gracz 
+sprawdzający w następnej rundzie będzie rozpoczynał gre z dwoma kartami. Jeśli układu nie jest 
+możliwy do ułożenia to dodatkową kartę w następnej rundzie otrzyma gracz sprawdzany.Jeśli któryś 
+z graczy uzbiera więcej niż pięć kart odpada z gry. Wygrywa ostatni gracz pozostający w rozgrywce.</p>

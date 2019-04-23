@@ -1,0 +1,59 @@
+<h2>Collateral Poker</h2>
+<h3>Usage</h3>
+
+<p style="line-height:150%;">The game starts by creating a server  Game->Create 
+and joining the game Game->Join or by joining the game created by another user 
+Game->Join and imput username, port number and server ip address. After joining 
+seats will be enable for players. If seat is taken, it will be marked by username 
+of user who took it and disabled for remaining users. Along with the seat occupation, 
+Play button appears. By pressing Play button, player informs other players that he 
+is ready to play and color of his username changes from white to green. To starts 
+game all players have to press Play button and at least two seats have to be taken. 
+If one of players left his seat, remaining users have to confirm that they are 
+ready again.</p>
+
+<p style="line-height:150%;">Overview window is shown to players after each round. Next round starts 
+when all players confirm round results and close overview window. All seats are available to seat 
+for players again after last round.</p>
+
+<ul style="list-style-type:square; line-height:150%;">
+<li>Game->Create - creates server on this machine ip address</li>
+<li>Game->Join - new player joins game</li>
+<li>Game->Close client - closes this client connection with server</li>
+<li>Game->Info - oppen message window about users and the game</li>
+<li>Game->Exit - closes program<li>
+<li>Options->Four color deck - cards will be shown in four-color suits</li>
+<li>Options->Sound - enables sound</l>
+<li>Options->Next back - changes back suit</li>
+<li>Help->Rules - shows rules window</li>
+</ul>
+
+<h3>Rules</h3>
+
+<p style="line-height:150%;">Collateral poker is a game for 2 to 4 players. Deck used for the game consists 24 cards ('9' to 'Ace' 
+for every suit). Poker hands are used in the game and in terms of streght these are:</p>
+
+<ul style="list-style-type:square; line-height:150%;">
+<li>high card</li>
+<li>pair</li>
+<li>two pairs</li>
+<li>three of a kind</li>
+<li>straight</li>
+<li>flush</li>
+<li>full hause</li>
+<li>four of a kind</li>
+<li>straight flush</li>
+</ul>
+
+<p style="line-height:150%;">The game is about declaring poker hands, raising them and checking hands declared by rivals. The 
+goal of the player is to force opponents to draw cards. Starting player is chosen randomly. At the 
+begining each player receives one card. Player who starts a round has to declare poker hand because 
+there is no hand to call yet. Next player has two options. He can call bet of previous player or 
+raise and declare higher hand. The order of the players is clockwise in the occupied seats. 
+Each round lasts until one of the players decide to call.</p>
+
+<p style="line-height:150%;">If player call, all players' cards are revealed. If declared hand is possible to dispose from 
+all players' cards, then the player who call will start next round with extra card. If declared 
+hand is not possible to dispose then extra card is given to player who declare hand. If any of 
+the playerscollects more than five cards, he looses and leaves the game. The last player 
+remaining in the game wins.</p>
