@@ -9,8 +9,8 @@ Grzegorz Derba
 
 ## Acknowledgments
 Communication between clients I have built based on 
-[TheChernoProject Chat](https://github.com/TheCherno/ChernoChat)
-[TheChernoProject](https://www.youtube.com/channel/UCQ-W1KE9EYfdxhL6S4twUNw)
+* [TheChernoProject Chat](https://github.com/TheCherno/ChernoChat)
+* [TheChernoProject](https://www.youtube.com/channel/UCQ-W1KE9EYfdxhL6S4twUNw)
 
 ## Game view
 ![game-view-print-screen](https://github.com/grigorgd/CollateralPoker/blob/master/pscreen.png)
