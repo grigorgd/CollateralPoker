@@ -1,6 +1,9 @@
 # CollateralPoker
 Quick card game for 2 to 4 players with poker game mechanics
 
+## Built With
+* java version "1.8.0_192"
+
 ## License
 [MIT](https://github.com/grigorgd/CollateralPoker/blob/master/LICENSE)
 
